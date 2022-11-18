@@ -16,7 +16,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  /* padding: 300px; */
+  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,32 +82,49 @@ body {
   }
 }
 
-.description {
+#about {
   position: relative;
   padding: 5em;
   background-color: #240102;
 }
 
-.description p {
+#about p {
   white-space: inherit;
-  font-size: 1.1em;
+  font-size: 10vw 1.1em;
   color: white;
+  text-align: justify;
   /* overflow: clip;
   text-overflow: ellipsis; */
+}
+
+#skills {
+  position: relative;
+  padding: 5em;
+  background-color: #240102;
+}
+#projects {
+  position: relative;
+  padding: 5em;
+  background-color: #240102;
+}
+
+#contact {
+  position: relative;
+  padding: 5em;
+  background-color: #240102;
 }
 
 #label-kontak {
   font-family: "Lato", sans-serif;
   color: white;
 }
-/* .description p::hover {
-  overflow: visible;
-} */
 
 #judul {
   color: white;
   text-align: center;
   font-size: 50px;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 #fotoku {
@@ -115,34 +132,4 @@ body {
   float: left;
   margin-right: 100px;
   border-radius: 50%;
-}
-
-#contact form {
-  align-items: center;
-  width: 50%;
-}
-
-.carousel-slide .carousel-inner {
-  height: 450px;
-  margin-top: 4em;
-}
-
-.carousel-inner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* min-width: 300px; */
-}
-.carousel-slide span {
-  position: absolute;
-}
-
-.card {
-  position: absolute;
-  float: left;
-  margin-right: 100px;
-}
-
-.kumpulan-card .card img {
-  width: 100px;
 }
